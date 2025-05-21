@@ -23,7 +23,7 @@ export const instance = async () => {
     scope: 'api://d74ba222-2cc7-479c-ab62-68865807e8e0/.default', // static
   });
 
-  console.log('rcw access_token', access_token); // eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiIsIng1dCI6Ik1yNS1BVWliZkJpaTdOZDFqQmViYXhib1hXMCIsImtpZCI6Ik1yNS1BVWliZkJpaTdOZDFqQmVgw...
+  console.log('rcw access_token', access_token);
 
   // From here on use any HTTP library to your liking to interact with the API. The following code is just an example how the access_token could be utilized using an axios instance:
   const instance = axios.create({

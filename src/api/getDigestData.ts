@@ -12,7 +12,7 @@ export const getDigestData = async (
     } = await client.post('encrypt', encryptData);
     return digest;
   } catch (error) {
-    console.log('getClaim error: ', error);
+    console.log('getDigestData error: ', error);
     throw error;
   }
 };
